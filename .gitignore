@@ -1,0 +1,19 @@
+#Python 环境
+.venv/
+venv/
+check_1.venv/
+__pycache__/
+*.pyc
+
+#YOLO 训练输出
+runs/
+*.pt
+*.onnx
+
+#数据集及缓存
+dataset/
+*.cache
+
+#系统与编辑器文件
+.DS_Store
+.vscode/
